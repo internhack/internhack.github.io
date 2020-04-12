@@ -1,6 +1,9 @@
 name: website
 
-on: push
+on:
+  push:
+    branches:
+    - develop
 
 jobs:
   publish:
@@ -18,7 +21,7 @@ jobs:
       if: success()
       uses: crazy-max/ghaction-github-pages@v1
       with:
-        target_branch: gh-pages
+        target_branch: master
         build_dir: build
         fqdn: internhacks.com
       env:
