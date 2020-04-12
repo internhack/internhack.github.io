@@ -647,7 +647,7 @@ export default class Home extends React.Component {
         <Content>
           <Tagline src={tagline} alt="tagline" />
           <TaglineText>
-            FEBRUARY 28 – MARCH 1, 2020
+            June 1 – August 29, 2020
           </TaglineText>
           {BACKGROUND_DECOR.map(e => (
             <BackgroundDecor
