@@ -25,4 +25,4 @@ jobs:
         build_dir: build
         fqdn: internhacks.com
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_PAT: ${{ secrets.DEPLOY_TOKEN }}
